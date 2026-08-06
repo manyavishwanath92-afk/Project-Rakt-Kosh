@@ -105,33 +105,40 @@ Rakt-Kosh follows a **three-tier architecture**:
 ## 🚀 Getting Started
 
 ### 1. Clone the repository
+```bash
 git clone https://github.com/swastigupta8/Project-Rakt-Kosh.git
 cd Project-Rakt-Kosh
+```
+
 ### 2. Setup Backend
+```bash
 pip install fastapi uvicorn mysql-connector-python passlib bcrypt geopy apscheduler
 uvicorn main:app --reload
+```
+
 ### 3. Setup Frontend
+```bash
 npm install
 npm run dev
+```
 
-# #🎯 Impact
+---
+
+## 🎯 Impact
 
 Rakt-Kosh addresses critical inefficiencies in decentralized blood management systems by:
+- Reducing delays in emergency blood access
+- Improving transparency in hospital inventory
+- Automating compliance with medical safety protocols
 
-Reducing delays in emergency blood access
-Improving transparency in hospital inventory
-Automating compliance with medical safety protocols
+---
 
 ## 📄 Documentation
 
-This project includes a detailed 42-page technical report covering:
+This project includes a detailed 42-page technical report covering ER diagrams, schema design, normalization (3NF), query optimization, and performance analysis.
 
-ER diagrams
-Schema design
-Normalization (3NF)
-Query optimization and performance analysis
+---
 
-## 👩‍💻 Author
+## 👥 Built By
 
-Swasti Gupta
-Computer Science Undergraduate, Manipal Institute of Technology
+A joint project by 4 students — Computer Science Undergraduates, Manipal Institute of Technology.gy
